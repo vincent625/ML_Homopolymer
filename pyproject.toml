@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ion-hp-ml"
+version = "0.1.0"
+description = "Candidate-level Ion Torrent homopolymer-indel feature extraction"
+requires-python = ">=3.10"
+dependencies = [
+  "numpy>=1.26",
+  "pandas>=2.0",
+  "pyarrow>=14",
+  "pysam>=0.22",
+  "scikit-learn>=1.4",
+  "xgboost>=2.0",
+  "matplotlib>=3.8",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"

@@ -1,0 +1,5 @@
+sample	run	bam	vcf	truth_profile
+AOHC	AOHC_01	data/AOHC_01.bam	data/AOHC_01.oncomine.vcf	AOHC
+AOHC	AOHC_02	data/AOHC_02.bam	data/AOHC_02.oncomine.vcf	AOHC
+HG002	HG002_01	data/HG002_01.bam	data/HG002_01.oncomine.vcf	HG002
+HG002	HG002_02	data/HG002_02.bam	data/HG002_02.oncomine.vcf	HG002
